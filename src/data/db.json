@@ -2,6 +2,7 @@
     "kaosit": [
         {
           "name": "T-Shirt Programmer Life Unofficial",
+          "code": "IT005",
           "price": 89000,
           "photo": [
             "program-hitam.jpg",
@@ -13,6 +14,7 @@
         },
         {
           "name": "T-Shirt React Unofficial",
+          "code": "IT004",
           "price": 89000,
           "photo": [
             "react-hitam.jpg",
@@ -25,6 +27,7 @@
         {
           "name": "T-Shirt Kali Linux Unofficial",
           "price": 89000,
+          "code": "IT003",
           "photo": [
             "kali-hitam.jpg",
             "kali-putih.jpg",
@@ -35,6 +38,7 @@
         },
         {
           "name": "T-Shirt Ubuntu Unofficial",
+          "code": "IT002",
           "price": 89000,
           "photo": [
             "ubuntu-hitam.jpg",
@@ -46,6 +50,7 @@
         },
         {
           "name": "T-Shirt Linux Unofficial",
+          "code": "IT001",
           "price": 89000,
           "photo": [
             "linux-hitam.jpg",

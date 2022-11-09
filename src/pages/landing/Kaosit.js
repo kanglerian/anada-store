@@ -1,15 +1,12 @@
 import React, { useEffect, useState } from 'react'
 import Kaos from '../../components/Kaos.js'
-import axios from 'axios'
+import dataKaos from '../../data/db.json'
 
 function Kaosit() {
     const [products, setProducts] = useState([]);
     useEffect(() => {
-        axios.get('http://localhost:3000/kaosit')
-        .then((res) => {
-            setProducts(res.data);
-        });
-    });
+        setProducts(dataKaos.kaosit);
+    },[]);
     const listKaos = products.map((product, index) => 
         <Kaos key={index} title={product}/>
     );
@@ -72,7 +69,7 @@ function Kaosit() {
                         <p className="my-3">Sebelum <b>harga naik</b>, PESAN SEKARANG!!!</p>
                         <a href="https://wa.me/message/3R7BNUESRSINI1" target="_blank" rel='noreferrer' className="bg-green-600 block text-center text-white w-full py-2 rounded-lg font-medium"><i className="fab fa-whatsapp mr-1"></i>
                             Pesan sekarang!</a>
-                        <p className="mt-3 text-slate-700 text-sm">*Note: Bila <b>kaos tidak sesuai</b> (cacat), <b>ganti baru</b> atau <b>100% UANG KEMBALI</b> tanpa syarat apapun.</p>
+                        <p className="mt-3 text-slate-700 text-[11px]">*Note: Bila <b>kaos tidak sesuai</b> (cacat), <b>ganti baru</b> atau <b>100% UANG KEMBALI</b> tanpa syarat apapun.</p>
                     </div>
                 </div>
             </section>
@@ -84,12 +81,10 @@ function Kaosit() {
                             <li><i className="far fa-check-circle"></i> Diproduksi oleh <b>Tim Ahli Konveksi</b> sudah berpengalaman bertahun-tahun</li>
                         </ul>
                     </div>
-                    <a href="https://wa.me/message/3R7BNUESRSINI1" target="_blank" rel="noreferrer" className="bg-green-600 block text-center text-white w-full py-2 mt-5 rounded-lg font-medium"><i className="fab fa-whatsapp mr-1"></i>
-                        Pesan sekarang!</a>
                 </div>
             </section>
-            <div className="fixed bottom-10 right-5">
-                <a href="https://wa.me/message/3R7BNUESRSINI1" target="_blank" rel="noreferrer"><lottie-player src="https://assets4.lottiefiles.com/packages/lf20_riycdgbe.json" background="transparent" speed="1" style={{ width: '100px', height: '100px' }} loop autoplay></lottie-player></a>
+            <div className="fixed bottom-2 right-2">
+                <a href="https://wa.me/message/3R7BNUESRSINI1" target="_blank" rel="noreferrer"><lottie-player src="https://assets4.lottiefiles.com/packages/lf20_riycdgbe.json" background="transparent" speed="1" style={{ width: '90px', height: '90px' }} loop autoplay></lottie-player></a>
             </div>
             <footer className="mt-7">
                 <div className="container mx-auto">
