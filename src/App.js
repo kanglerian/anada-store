@@ -6,7 +6,7 @@ import Kaosit from './pages/landing/Kaosit';
 function App() {
   return (
     <Routes>
-      <Route path="/" element={<Kaosit/>} />
+      <Route path="/kaosinformatika" element={<Kaosit/>} />
       <Route path="/kaosdakwah" element={<Kaosdakwah/>} />
     </Routes>
   )
