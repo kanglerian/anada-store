@@ -28,7 +28,7 @@ function Kaosit() {
                             Pesan sekarang!</a>
                         <p className="mb-2">Untuk melengkapi rutinitasmu, kami hadirkan kaos untukmu yang bikin kamu <b>Percaya Diri sebagai
                             anak IT</b>.</p>
-                        <p><b>Kaos yang nyaman dipakai</b> sehari-hari entah bekerja ataupun nongkrong bareng temen.</p>
+                        <p><b>Kaos yang nyaman dipakai</b> sehari-hari saat bekerja ataupun nongkrong bareng temen.</p>
                     </div>
                 </div>
             </section>
