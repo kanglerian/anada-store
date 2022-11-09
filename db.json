@@ -1,0 +1,59 @@
+{
+    "kaosit": [
+        {
+          "name": "T-Shirt Programmer Life Unofficial",
+          "price": 89000,
+          "photo": [
+            "program-hitam.jpg",
+            "program-putih.jpg",
+            "program-biru.jpg",
+            "program-merah.jpg"
+          ],
+          "id": 5
+        },
+        {
+          "name": "T-Shirt React Unofficial",
+          "price": 89000,
+          "photo": [
+            "react-hitam.jpg",
+            "react-putih.jpg",
+            "react-biru.jpg",
+            "react-merah.jpg"
+          ],
+          "id": 4
+        },
+        {
+          "name": "T-Shirt Kali Linux Unofficial",
+          "price": 89000,
+          "photo": [
+            "kali-hitam.jpg",
+            "kali-putih.jpg",
+            "kali-biru.jpg",
+            "kali-merah.jpg"
+          ],
+          "id": 3
+        },
+        {
+          "name": "T-Shirt Ubuntu Unofficial",
+          "price": 89000,
+          "photo": [
+            "ubuntu-hitam.jpg",
+            "ubuntu-putih.jpg",
+            "ubuntu-biru.jpg",
+            "ubuntu-merah.jpg"
+          ],
+          "id": 2
+        },
+        {
+          "name": "T-Shirt Linux Unofficial",
+          "price": 89000,
+          "photo": [
+            "linux-hitam.jpg",
+            "linux-putih.jpg",
+            "linux-biru.jpg",
+            "linux-merah.jpg"
+          ],
+          "id": 1
+        }
+    ]
+}
