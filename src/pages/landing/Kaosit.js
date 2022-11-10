@@ -3,19 +3,14 @@ import OwlCarousel from 'react-owl-carousel';
 import 'owl.carousel/dist/assets/owl.carousel.css';
 import 'owl.carousel/dist/assets/owl.theme.default.css';
 import Kaos from '../../components/Kaos.js'
-import dataKaos from '../../data/db.json'
+import dataItos from '../../data/itos.json'
 
 function Kaosit() {
     const [productsOS, setProductsOS] = useState([]);
-    const [productsBV, setProductsBV] = useState([]);
     useEffect(() => {
-        setProductsOS(dataKaos.kaositos);
-        setProductsBV(dataKaos.kaositbehavior);
-    }, []);
+        setProductsOS(dataItos.kaositos);
+    },[]);
     const listKaosOS = productsOS.map((product, index) =>
-        <Kaos key={index} title={product} />
-    );
-    const listKaosBV = productsBV.map((product, index) =>
         <Kaos key={index} title={product} />
     );
     return (
@@ -47,7 +42,7 @@ function Kaosit() {
                     </div>
                 </div>
             </section>
-            <section id="os" className="max-w-sm mx-auto mt-3">
+            <section className="max-w-sm mx-auto mt-3">
                 <div className="container mx-auto">
                     <div class="bg-white pt-2">
                         <h5 className='font-bold text-center'>Kaos OS (Operating System)</h5>
@@ -55,18 +50,6 @@ function Kaosit() {
                     <div className="flex flex-wrap gap-4 justify-center">
                         <OwlCarousel className='owl-theme' loop margin={10} items={1}>
                             {listKaosOS}
-                        </OwlCarousel>
-                    </div>
-                </div>
-            </section>
-            <section id="bv" className="max-w-sm mx-auto mt-3">
-                <div className="container mx-auto">
-                    <div class="bg-white pt-2">
-                        <h5 className='font-bold text-center'>Kaos Behavior</h5>
-                    </div>
-                    <div className="flex flex-wrap gap-4 justify-center">
-                        <OwlCarousel className='owl-theme' loop margin={10} items={1}>
-                            {listKaosBV}
                         </OwlCarousel>
                     </div>
                 </div>

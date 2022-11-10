@@ -1,6 +1,18 @@
 {
   "kaositos": [
     {
+      "name": "T-Shirt Programmer Life Unofficial",
+      "code": "IT001",
+      "price": 89000,
+      "photo": [
+        "program-hitam.jpg",
+        "program-putih.jpg",
+        "program-biru.jpg",
+        "program-merah.jpg"
+      ],
+      "id": 4
+    },
+    {
       "name": "T-Shirt Kali Linux Unofficial",
       "price": 89000,
       "code": "IT003",
@@ -33,20 +45,6 @@
         "linux-putih.jpg",
         "linux-biru.jpg",
         "linux-merah.jpg"
-      ],
-      "id": 1
-    }
-  ],
-  "kaositbehavior": [
-    {
-      "name": "T-Shirt Programmer Life Unofficial",
-      "code": "IT001",
-      "price": 89000,
-      "photo": [
-        "program-hitam.jpg",
-        "program-putih.jpg",
-        "program-biru.jpg",
-        "program-merah.jpg"
       ],
       "id": 1
     }
