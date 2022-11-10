@@ -3,14 +3,25 @@ import OwlCarousel from 'react-owl-carousel';
 import 'owl.carousel/dist/assets/owl.carousel.css';
 import 'owl.carousel/dist/assets/owl.theme.default.css';
 import Kaos from '../../components/Kaos.js'
-import dataItos from '../../data/itos.json'
+import axios from 'axios';
 
 function Kaosit() {
-    const [productsOS, setProductsOS] = useState([]);
+    const [itos, setItos] = useState([]);
+    const [itbehavior, setBehavior] = useState([]);
     useEffect(() => {
-        setProductsOS(dataItos.kaositos);
-    },[]);
-    const listKaosOS = productsOS.map((product, index) =>
+        axios.get(`https://namira-api.vercel.app/api/itos`)
+            .then((result) => {
+                setItos(result.data.data);
+            });
+        axios.get(`https://namira-api.vercel.app/api/itbehavior`)
+            .then((result) => {
+                setBehavior(result.data.data);
+            });
+    }, []);
+    const listBV = itbehavior.map((product, index) =>
+        <Kaos key={index} title={product} />
+    );
+    const listOS = itos.map((product, index) =>
         <Kaos key={index} title={product} />
     );
     return (
@@ -26,14 +37,14 @@ function Kaosit() {
             <section className="max-w-sm mx-auto mt-10 mb-3 shadow-sm">
                 <div className="container">
                     <div className="bg-white p-4">
-                    <OwlCarousel className='owl-theme' loop margin={10} items={1}>
-                        <div class='item'>
-                            <img src="./images/cover.jpg" alt="Cover" className="w-auto" />
-                        </div>
-                        <div class='item'>
-                            <img src="./images/cover.jpg" alt="Cover" className="w-auto" />
-                        </div>
-                    </OwlCarousel>
+                        <OwlCarousel className='owl-theme' loop margin={10} items={1}>
+                            <div className='item'>
+                                <img src="./images/cover.jpg" alt="Cover" className="w-auto" />
+                            </div>
+                            <div className='item'>
+                                <img src="./images/cover.jpg" alt="Cover" className="w-auto" />
+                            </div>
+                        </OwlCarousel>
                         <p className="mb-2">Untuk melengkapi rutinitasmu, kami hadirkan kaos untukmu yang bikin kamu <b>Percaya Diri sebagai
                             anak IT</b>.</p>
                         <p className='mb-4'><b>Kaos yang nyaman dipakai</b> sehari-hari saat bekerja ataupun nongkrong bareng temen.</p>
@@ -44,13 +55,29 @@ function Kaosit() {
             </section>
             <section className="max-w-sm mx-auto mt-3">
                 <div className="container mx-auto">
-                    <div class="bg-white pt-2">
+                    <div className="bg-white pt-2">
                         <h5 className='font-bold text-center'>Kaos OS (Operating System)</h5>
                     </div>
                     <div className="flex flex-wrap gap-4 justify-center">
-                        <OwlCarousel className='owl-theme' loop margin={10} items={1}>
-                            {listKaosOS}
-                        </OwlCarousel>
+                        {listOS}
+                    </div>
+                </div>
+            </section>
+            <section className="max-w-sm mx-auto mt-2">
+                <div className="container">
+                    <div className="p-4">
+                        <a href="https://wa.me/message/3R7BNUESRSINI1" target="_blank" rel="noreferrer" className="bg-green-600 block text-center text-white w-full py-2 rounded-lg font-medium"><i className="fab fa-whatsapp mr-1"></i>
+                            Pesan sekarang!</a>
+                    </div>
+                </div>
+            </section>  
+            <section className="max-w-sm mx-auto mt-3">
+                <div className="container mx-auto">
+                    <div className="bg-white pt-2">
+                        <h5 className='font-bold text-center'>Programmer Life</h5>
+                    </div>
+                    <div className="flex flex-wrap gap-4 justify-center">
+                        {listBV}
                     </div>
                 </div>
             </section>
