@@ -1,52 +1,54 @@
 {
-    "kaosit": [
-        {
-          "name": "T-Shirt Programmer Life Unofficial",
-          "code": "IT004",
-          "price": 89000,
-          "photo": [
-            "program-hitam.jpg",
-            "program-putih.jpg",
-            "program-biru.jpg",
-            "program-merah.jpg"
-          ],
-          "id": 4
-        },
-        {
-          "name": "T-Shirt Kali Linux Unofficial",
-          "price": 89000,
-          "code": "IT003",
-          "photo": [
-            "kali-hitam.jpg",
-            "kali-putih.jpg",
-            "kali-biru.jpg",
-            "kali-merah.jpg"
-          ],
-          "id": 3
-        },
-        {
-          "name": "T-Shirt Ubuntu Unofficial",
-          "code": "IT002",
-          "price": 89000,
-          "photo": [
-            "ubuntu-hitam.jpg",
-            "ubuntu-putih.jpg",
-            "ubuntu-biru.jpg",
-            "ubuntu-merah.jpg"
-          ],
-          "id": 2
-        },
-        {
-          "name": "T-Shirt Linux Unofficial",
-          "code": "IT001",
-          "price": 89000,
-          "photo": [
-            "linux-hitam.jpg",
-            "linux-putih.jpg",
-            "linux-biru.jpg",
-            "linux-merah.jpg"
-          ],
-          "id": 1
-        }
-    ]
+  "kaositos": [
+    {
+      "name": "T-Shirt Kali Linux Unofficial",
+      "price": 89000,
+      "code": "IT003",
+      "photo": [
+        "kali-hitam.jpg",
+        "kali-putih.jpg",
+        "kali-biru.jpg",
+        "kali-merah.jpg"
+      ],
+      "id": 3
+    },
+    {
+      "name": "T-Shirt Ubuntu Unofficial",
+      "code": "IT002",
+      "price": 89000,
+      "photo": [
+        "ubuntu-hitam.jpg",
+        "ubuntu-putih.jpg",
+        "ubuntu-biru.jpg",
+        "ubuntu-merah.jpg"
+      ],
+      "id": 2
+    },
+    {
+      "name": "T-Shirt Linux Unofficial",
+      "code": "IT001",
+      "price": 89000,
+      "photo": [
+        "linux-hitam.jpg",
+        "linux-putih.jpg",
+        "linux-biru.jpg",
+        "linux-merah.jpg"
+      ],
+      "id": 1
+    }
+  ],
+  "kaositbehavior": [
+    {
+      "name": "T-Shirt Programmer Life Unofficial",
+      "code": "IT001",
+      "price": 89000,
+      "photo": [
+        "program-hitam.jpg",
+        "program-putih.jpg",
+        "program-biru.jpg",
+        "program-merah.jpg"
+      ],
+      "id": 1
+    }
+  ]
 }
