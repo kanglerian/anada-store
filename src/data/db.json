@@ -2,25 +2,13 @@
     "kaosit": [
         {
           "name": "T-Shirt Programmer Life Unofficial",
-          "code": "IT005",
+          "code": "IT004",
           "price": 89000,
           "photo": [
             "program-hitam.jpg",
             "program-putih.jpg",
             "program-biru.jpg",
             "program-merah.jpg"
-          ],
-          "id": 5
-        },
-        {
-          "name": "T-Shirt React Unofficial",
-          "code": "IT004",
-          "price": 89000,
-          "photo": [
-            "react-hitam.jpg",
-            "react-putih.jpg",
-            "react-biru.jpg",
-            "react-merah.jpg"
           ],
           "id": 4
         },
