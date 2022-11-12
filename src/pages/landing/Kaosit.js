@@ -9,15 +9,14 @@ function Kaosit() {
     const [itos, setItos] = useState([]);
     const [itbehavior, setBehavior] = useState([]);
     useEffect(() => {
-        axios.get(`https://namira-api.vercel.app/api/itos`)
-            .then((result) => {
-                setItos(result.data.data);
-            });
-        axios.get(`https://namira-api.vercel.app/api/itbehavior`)
-            .then((result) => {
-                setBehavior(result.data.data);
-            });
-    }, []);
+        let reqItos = axios.get(`https://namira-api.vercel.app/api/itos`);
+        let reqItbehavior = axios.get(`https://namira-api.vercel.app/api/itbehavior`);
+        axios.all([reqItos, reqItbehavior])
+            .then(axios.spread((...res) => {
+                setItos(res[0].data.data);
+                setBehavior(res[1].data.data);
+            }));
+    },[]);
     const listBV = itbehavior.map((product, index) =>
         <Kaos key={index} title={product} />
     );
@@ -59,7 +58,11 @@ function Kaosit() {
                         <h5 className='font-bold text-center'>Kaos OS (Operating System)</h5>
                     </div>
                     <div className="flex flex-wrap gap-4 justify-center">
-                        {listOS}
+                        {itos.length && (
+                            <OwlCarousel className='owl-theme' loop margin={10} items={1}>
+                            {listOS}
+                            </OwlCarousel>
+                        )}
                     </div>
                 </div>
             </section>
@@ -70,14 +73,18 @@ function Kaosit() {
                             Pesan sekarang!</a>
                     </div>
                 </div>
-            </section>  
+            </section>
             <section className="max-w-sm mx-auto mt-3">
                 <div className="container mx-auto">
                     <div className="bg-white pt-2">
                         <h5 className='font-bold text-center'>Programmer Life</h5>
                     </div>
                     <div className="flex flex-wrap gap-4 justify-center">
-                        {listBV}
+                        {itbehavior.length && (
+                            <OwlCarousel className='owl-theme' loop margin={10} items={1}>
+                            {listBV}
+                            </OwlCarousel>
+                        )}
                     </div>
                 </div>
             </section>

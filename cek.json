@@ -1,0 +1,345 @@
+{
+    "invitation": [
+      {
+        "name": "UNDANGAN PERNIKAHAN GLOSSY 001 ELEGANT",
+        "price": 1999,
+        "photo": [
+          "glossy-001-01.jpg",
+          "glossy-001-02.jpg",
+          "glossy-001-03.jpg"
+        ],
+        "desc": "Undangan pernikahan dengan tipe Glossy cocok buat kamu yang simple, calm dan serius.",
+        "tipe": "Glossy",
+        "buy": "https://api.whatsapp.com/send?phone=6285315666799&text=Halo%20kak,%20saya%20mau%20pesan%20undangan%20pernikahan",
+        "id": 1
+      },
+      {
+        "name": "UNDANGAN PERNIKAHAN GLOSSY 002 ELEGANT",
+        "price": 1999,
+        "photo": [
+          "glossy-002-01.jpg",
+          "glossy-002-02.jpg",
+          "glossy-002-03.jpg"
+        ],
+        "desc": "Undangan pernikahan dengan tipe Glossy cocok buat kamu yang simple, calm dan serius.",
+        "tipe": "Glossy",
+        "buy": "https://api.whatsapp.com/send?phone=6285315666799&text=Halo%20kak,%20saya%20mau%20pesan%20undangan%20pernikahan",
+        "id": 2
+      },
+      {
+        "name": "UNDANGAN PERNIKAHAN GLOSSY 003 ELEGANT",
+        "price": 1999,
+        "photo": [
+          "glossy-003-01.jpg",
+          "glossy-003-02.jpg",
+          "glossy-003-03.jpg"
+        ],
+        "desc": "Undangan pernikahan dengan tipe Glossy cocok buat kamu yang simple, calm dan serius.",
+        "tipe": "Glossy",
+        "buy": "https://api.whatsapp.com/send?phone=6285315666799&text=Halo%20kak,%20saya%20mau%20pesan%20undangan%20pernikahan",
+        "id": 3
+      },
+      {
+        "name": "UNDANGAN PERNIKAHAN GLOSSY 004 ELEGANT",
+        "price": 1999,
+        "photo": [
+          "glossy-004-01.jpg",
+          "glossy-004-02.jpg",
+          "glossy-004-03.jpg"
+        ],
+        "desc": "Undangan pernikahan dengan tipe Glossy cocok buat kamu yang simple, calm dan serius.",
+        "tipe": "Glossy",
+        "buy": "https://api.whatsapp.com/send?phone=6285315666799&text=Halo%20kak,%20saya%20mau%20pesan%20undangan%20pernikahan",
+        "id": 4
+      },
+      {
+        "name": "UNDANGAN PERNIKAHAN GLOSSY 005 ELEGANT",
+        "price": 1999,
+        "photo": [
+          "glossy-005-01.jpg",
+          "glossy-005-02.jpg",
+          "glossy-005-03.jpg"
+        ],
+        "desc": "Undangan pernikahan dengan tipe Glossy cocok buat kamu yang simple, calm dan serius.",
+        "tipe": "Glossy",
+        "buy": "https://api.whatsapp.com/send?phone=6285315666799&text=Halo%20kak,%20saya%20mau%20pesan%20undangan%20pernikahan",
+        "id": 5
+      },
+      {
+        "name": "UNDANGAN PERNIKAHAN GLOSSY 006 ELEGANT",
+        "price": 1599,
+        "photo": [
+          "glossy-006-01.jpg",
+          "glossy-006-02.jpg",
+          "glossy-006-03.jpg"
+        ],
+        "desc": "Undangan pernikahan dengan tipe Glossy cocok buat kamu yang simple, calm dan serius.",
+        "tipe": "Glossy",
+        "buy": "https://api.whatsapp.com/send?phone=6285315666799&text=Halo%20kak,%20saya%20mau%20pesan%20undangan%20pernikahan",
+        "id": 6
+      },
+      {
+        "name": "UNDANGAN PERNIKAHAN GLOSSY 007 ELEGANT",
+        "price": 1599,
+        "photo": [
+          "glossy-007-01.jpg",
+          "glossy-007-02.jpg",
+          "glossy-007-03.jpg"
+        ],
+        "desc": "Undangan pernikahan dengan tipe Glossy cocok buat kamu yang simple, calm dan serius.",
+        "tipe": "Glossy",
+        "buy": "https://api.whatsapp.com/send?phone=6285315666799&text=Halo%20kak,%20saya%20mau%20pesan%20undangan%20pernikahan",
+        "id": 7
+      },
+      {
+        "name": "UNDANGAN PERNIKAHAN GLOSSY 008 ELEGANT",
+        "price": 1599,
+        "photo": [
+          "glossy-008-01.jpg",
+          "glossy-008-02.jpg",
+          "glossy-008-03.jpg"
+        ],
+        "desc": "Undangan pernikahan dengan tipe Glossy cocok buat kamu yang simple, calm dan serius.",
+        "tipe": "Glossy",
+        "buy": "https://api.whatsapp.com/send?phone=6285315666799&text=Halo%20kak,%20saya%20mau%20pesan%20undangan%20pernikahan",
+        "id": 8
+      },
+      {
+        "name": "UNDANGAN PERNIKAHAN GLOSSY 009 ELEGANT",
+        "price": 1599,
+        "photo": [
+          "glossy-009-01.jpg",
+          "glossy-009-02.jpg",
+          "glossy-009-03.jpg"
+        ],
+        "desc": "Undangan pernikahan dengan tipe Glossy cocok buat kamu yang simple, calm dan serius.",
+        "tipe": "Glossy",
+        "buy": "https://api.whatsapp.com/send?phone=6285315666799&text=Halo%20kak,%20saya%20mau%20pesan%20undangan%20pernikahan",
+        "id": 9
+      }
+    ],
+    "souvenir": [
+      {
+        "name": "PULPEN KIPAS DIKEMAS PLASTIK SOUVENIR PERNIKAHAN",
+        "price": 1999,
+        "photo": [
+          "sp-pulpen-kipas-kemas-plastik.jpg"
+        ],
+        "desc": "Souvenir unik yang kekinian pulpen menyatu dengan kipas harga terjangkau dan sudah dikemas dengan plastik. Bahan terbuat dari plastik, gambar kipas terdapat buah dan karakter, bagian belakang kipas polos, kualitas tinta pulpen bagus. Model dan warna gambar akan dikirimkan secara random mengikuti stok yang ada. Minimal order 50pcs dan kelipatannya.",
+        "tipe": "",
+        "buy": "https://api.whatsapp.com/send?phone=6285315666799&text=Halo%20kak,%20saya%20mau%20pesan%20souvenir",
+        "id": 1
+      },
+      {
+        "name": "SPATULA DIKEMAS MIKA SOUVENIR PERNIKAHAN",
+        "price": 1499,
+        "photo": [
+          "sp-spatula-kemas-mika.jpg"
+        ],
+        "desc": "Souvenir Spatula Serbaguna harga terjangkau dan sudah dikemas dengan mika. Bahan terbuat dari plastik. Warna akan dikirimkan secara random mengikuti stok yang ada. Minimal order 50pcs dan kelipatannya.",
+        "tipe": "",
+        "buy": "https://api.whatsapp.com/send?phone=6285315666799&text=Halo%20kak,%20saya%20mau%20pesan%20souvenir",
+        "id": 2
+      },
+      {
+        "name": "KONEKTOR KAIN MASKER DIKEMAS PLASTIK SOUVENIR PERNIKAHAN",
+        "price": 1699,
+        "photo": [
+          "sp-konektor-kain-masker-kemas-plastik.jpg"
+        ],
+        "desc": "Souvenir yang lagi tren dan bermanfaat Konektor Kain Masker harga terjangkau dan sudah dikemas dengan plastik. Bahan terbuat dari kain dan dilengkapi dengan kancing. Warna akan dikirimkan secara random mengikuti stok yang ada. Minimal order 50pcs dan kelipatannya.",
+        "tipe": "",
+        "buy": "https://api.whatsapp.com/send?phone=6285315666799&text=Halo%20kak,%20saya%20mau%20pesan%20souvenir",
+        "id": 3
+      },
+      {
+        "name": "SENDOK JUS DIKEMAS MIKA SOUVENIR PERNIKAHAN",
+        "price": 1499,
+        "photo": [
+          "sp-sendok-jus-kemas-mika.jpg"
+        ],
+        "desc": "Souvenir yang bermanfaat bagi kamu pecinta minuman! Sendok Jus harga terjangkau dan sudah dikemas dengan mika. Bahan terbuat dari plastik. Warna akan dikirimkan secara random mengikuti stok yang ada. Minimal order 100pcs dan kelipatannya.",
+        "tipe": "",
+        "buy": "https://api.whatsapp.com/send?phone=6285315666799&text=Halo%20kak,%20saya%20mau%20pesan%20souvenir",
+        "id": 4
+      },
+      {
+        "name": "PISAU BUAH KEMAS PLASTIK SOUVENIR PERNIKAHAN",
+        "price": 1199,
+        "photo": [
+          "sp-pisau-buah-kemas-plastik.jpg"
+        ],
+        "desc": "Souvenir yang bermanfaat bagi pecinta buah! Pisau Buah harga terjangkau dan sudah dikemas dengan plastik. Bahan gagang terbuat dari plastik dan pisau berupa logam tipis. Warna akan dikirimkan secara random mengikuti stok yang ada. Minimal order 100pcs dan kelipatannya.",
+        "tipe": "",
+        "buy": "https://api.whatsapp.com/send?phone=6285315666799&text=Halo%20kak,%20saya%20mau%20pesan%20souvenir",
+        "id": 5
+      },
+      {
+        "name": "SISIR TIGA LUBANG KEMAS PLASTIK SOUVENIR PERNIKAHAN",
+        "price": 1099,
+        "photo": [
+          "sp-sisir-tiga-lubang-kemas-plastik.jpg"
+        ],
+        "desc": "Souvenir yang bermanfaat bagi semua kalangan! Sisir Tiga Lubang harga terjangkau dan sudah dikemas dengan plastik. Bahan terbuat dari plastik. Warna akan dikirimkan secara random mengikuti stok yang ada. Minimal order 100pcs dan kelipatannya.",
+        "tipe": "",
+        "buy": "https://api.whatsapp.com/send?phone=6285315666799&text=Halo%20kak,%20saya%20mau%20pesan%20souvenir",
+        "id": 6
+      },
+      {
+        "name": "SENDOK GARPU SUMPIT KEMAS MIKA SOUVENIR PERNIKAHAN",
+        "price": 1999,
+        "photo": [
+          "sp-sendok-garpu-sumpit-kemas-mika.jpg"
+        ],
+        "desc": "Souvenir yang bermanfaat bagi kamu pecinta kuliner! Sendok Garpu Sumpit Lengkap harga terjangkau dan sudah dikemas dengan mika. Bahan terbuat dari plastik. Warna akan dikirimkan secara random mengikuti stok yang ada. Minimal order 50pcs dan kelipatannya.",
+        "tipe": "",
+        "buy": "https://api.whatsapp.com/send?phone=6285315666799&text=Halo%20kak,%20saya%20mau%20pesan%20souvenir",
+        "id": 7
+      },
+      {
+        "name": "PISAU DAPUR KEMAS MIKA SOUVENIR PERNIKAHAN",
+        "price": 1699,
+        "photo": [
+          "sp-pisau-dapur-kemas-mika.jpg"
+        ],
+        "desc": "Souvenir yang bermanfaat bagi kamu yang senang memasak! Pisau Dapur harga terjangkau dan sudah dikemas dengan mika. Bahan gagang terbuat dari plastik dan pisau terbuat dari Stainless Steel. Warna akan dikirimkan secara random mengikuti stok yang ada. Minimal order 50pcs dan kelipatannya.",
+        "tipe": "",
+        "buy": "https://api.whatsapp.com/send?phone=6285315666799&text=Halo%20kak,%20saya%20mau%20pesan%20souvenir",
+        "id": 8
+      },
+      {
+        "name": "CENTONG KEMAS PLASTIK SOUVENIR PERNIKAHAN",
+        "price": 1099,
+        "photo": [
+          "sp-centong-kemas-plastik.jpg"
+        ],
+        "desc": "Souvenir yang bermanfaat bagi tamu kamu yang sudah berumah tangga! Centong Nasi harga terjangkau dan sudah dikemas dengan plastik. Bahan terbuat dari plastik. Warna akan dikirimkan secara random mengikuti stok yang ada. Minimal order 100pcs dan kelipatannya.",
+        "tipe": "",
+        "buy": "https://api.whatsapp.com/send?phone=6285315666799&text=Halo%20kak,%20saya%20mau%20pesan%20souvenir",
+        "id": 9
+      },
+      {
+        "name": "MANGKOK BULAT SAMBAL KEMAS MIKA SOUVENIR PERNIKAHAN",
+        "price": 2399,
+        "photo": [
+          "sp-mangkok-bulan-sambal-kemas-mika.jpg"
+        ],
+        "desc": "Souvenir yang bermanfaat bagi pecinta SAMBAL! Mangkok Bulat Sambal harga terjangkau dan sudah dikemas dengan mika. Bahan terbuat dari melamin. Model gambar akan dikirimkan secara random mengikuti stok yang ada. Minimal order 20pcs dan kelipatannya.",
+        "tipe": "",
+        "buy": "https://api.whatsapp.com/send?phone=6285315666799&text=Halo%20kak,%20saya%20mau%20pesan%20souvenir",
+        "id": 10
+      },
+      {
+        "name": "KIPAS PENGANTIN KEMAS PLASTIK SOUVENIR PERNIKAHAN",
+        "price": 1699,
+        "photo": [
+          "sp-kipas-pengantin-kemas-plastik-1.jpg",
+          "sp-kipas-pengantin-kemas-plastik-2.jpg"
+        ],
+        "desc": "Souvenir yang bermanfaat bagi tamu yang GERAH! Kipas Pengantin harga terjangkau dan sudah dikemas dengan plastik. Gagang terbuat dari plastik dan kipas dari kertas tebal dengan motif pengantin. Model gambar akan dikirimkan secara random mengikuti stok yang ada. Minimal order 50pcs dan kelipatannya.",
+        "tipe": "",
+        "buy": "https://api.whatsapp.com/send?phone=6285315666799&text=Halo%20kak,%20saya%20mau%20pesan%20souvenir",
+        "id": 11
+      },
+      {
+        "name": "CERMIN MOTIF HELLO KITTY KEMAS PLASTIK SOUVENIR PERNIKAHAN",
+        "price": 1399,
+        "photo": [
+          "sp-cermin-hellokitty-kemas-plastik-1.jpg",
+          "sp-cermin-hellokitty-kemas-plastik-2.jpg"
+        ],
+        "desc": "Souvenir yang bermanfaat bagi tamu kamu yang suka berkaca dimanapun! Cermin Motif Hello Kitty yang imut harga terjangkau dan sudah dikemas dengan plastik. Bahan kaca terbuat dari kaca asli dan gagang kaca terbuat dari plastik. Warna akan dikirimkan secara random mengikuti stok yang ada. Minimal order 50pcs dan kelipatannya.",
+        "tipe": "",
+        "buy": "https://api.whatsapp.com/send?phone=6285315666799&text=Halo%20kak,%20saya%20mau%20pesan%20souvenir",
+        "id": 12
+      },
+      {
+        "name": "GANTUNGAN KUNCI DORAEMON SOUVENIR PERNIKAHAN",
+        "price": 799,
+        "photo": [
+          "sp-gantungan-kunci-doraemon-kemas-plastik.jpg"
+        ],
+        "desc": "Souvenir unik! Gantungan Kunci Doraemon harga terjangkau dan sudah dikemas dengan plastik. Bahan terbuat dari Plastik Fiber. Bermanfaat untuk menjaga kunci tetap aman dan terkendali. Minimal order 100pcs dan kelipatannya.",
+        "tipe": "",
+        "buy": "https://api.whatsapp.com/send?phone=6285315666799&text=Halo%20kak,%20saya%20mau%20pesan%20souvenir",
+        "id": 13
+      },
+      {
+        "name": "CENTONG SAYUR MELAMIN KEMAS PLASTIK SOUVENIR PERNIKAHAN",
+        "price": 1899,
+        "photo": [
+          "sp-centong-sayur-melamin-kemas-plastik.jpg"
+        ],
+        "desc": "Souvenir yang bermanfaat bagi tamu kamu yang sudah berumah tangga! Centong Sayur Melamin harga terjangkau dan sudah dikemas dengan plastik. Bahan terbuat dari melamin. Warna akan dikirimkan secara random mengikuti stok yang ada. Minimal order 100pcs dan kelipatannya.",
+        "tipe": "",
+        "buy": "https://api.whatsapp.com/send?phone=6285315666799&text=Halo%20kak,%20saya%20mau%20pesan%20souvenir",
+        "id": 14
+      }
+    ],
+    "merchandise": [],
+    "kaositos":[
+        {
+          "name": "Kaos Windows Unofficial",
+          "code": "OS001",
+          "price": 89000,
+          "photo": [
+            "os/windows-hitam.png",
+            "os/windows-putih.png",
+            "os/windows-biru.png",
+            "os/windows-merah.png"
+          ],
+          "id": 1
+        },
+        {
+          "name": "Kaos Ubuntu Unofficial",
+          "code": "OS002",
+          "price": 89000,
+          "photo": [
+            "os/ubuntu-hitam.png",
+            "os/ubuntu-putih.png",
+            "os/ubuntu-biru.png",
+            "os/ubuntu-merah.png"
+          ],
+          "id": 2
+        },
+      {
+        "name": "Kaos Kali Linux Unofficial",
+        "code": "OS003",
+        "price": 89000,
+        "photo": [
+          "os/kali-hitam.png",
+          "os/kali-putih.png",
+          "os/kali-biru.png",
+          "os/kali-merah.png"
+        ],
+        "id": 3
+      },
+      {
+        "name": "Kaos Linux Unofficial",
+        "code": "OS001",
+        "price": 89000,
+        "photo": [
+          "os/linux-hitam.png",
+          "os/linux-putih.png",
+          "os/linux-biru.png",
+          "os/linux-merah.png"
+        ],
+        "id": 4
+      }
+    ],
+    "kaositbehavior":[
+      {
+        "name": "Kaos Programmer Life",
+        "code": "PR001",
+        "price": 89000,
+        "photo": [
+          "behavior/program-hitam.jpg",
+          "behavior/program-putih.jpg",
+          "behavior/program-biru.jpg",
+          "behavior/program-merah.jpg"
+        ],
+        "id": 1
+      }
+    ]
+  }
+  
