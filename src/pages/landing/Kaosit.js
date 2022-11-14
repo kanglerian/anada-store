@@ -29,7 +29,7 @@ function Kaosit() {
                 <div className="container mx-auto bg-slate-900 mb-4 text-red-500 shadow-md">
                     <div className="flex py-2">
                         {/* eslint-disable-next-line */}
-                        <marquee marquee="true" className="font-medium">PROMO!! Harga Rp89.000 untuk semua produk sampai 21 November 2022</marquee>
+                        <marquee marquee="true" className="font-medium">PROMO!! Harga Rp89.000 untuk beberapa produk sampai 21 November 2022</marquee>
                     </div>
                 </div>
             </header>
