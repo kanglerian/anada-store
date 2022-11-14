@@ -4,13 +4,13 @@ function Kaos(props) {
     const [cover, setCover] = useState(props.title.photo[0]);
     const listPhoto = props.title.photo.map((photo, index) => {
         return(
-            <img key={index} src={'./images/katalog/' + photo} alt='anu' onClick={() => setCover(photo)} className="w-auto h-20" />
+            <img key={index} src={photo} alt='anu' onClick={() => setCover(photo)} className="object-scale-down w-20 h-20" />
         )
     });
     return (
         <div className="bg-white w-50 p-3 text-center shadow-sm">
-            <img src={'./images/katalog/' + cover} alt="Kaos" className="w-auto h-auto" />
-            <div className="flex justify-around mt-1">
+            <img src={cover} alt="Kaos" className="w-auto h-auto" />
+            <div className='flex justify-around mt-1'>
                 {listPhoto}
             </div>
             <div className="py-3">

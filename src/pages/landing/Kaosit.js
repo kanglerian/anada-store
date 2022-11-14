@@ -7,14 +7,20 @@ import axios from 'axios';
 
 function Kaosit() {
     const [itos, setItos] = useState([]);   
+    const [itprog, setItprog] = useState([]);   
     useEffect(() => {
         let reqItos = axios.get(`https://namira-api.vercel.app/api/itos`);
-        axios.all([reqItos])
+        let reqItprog = axios.get(`https://namira-api.vercel.app/api/itprog`);
+        axios.all([reqItos,reqItprog])
             .then(axios.spread((...res) => {
                 setItos(res[0].data.data);
+                setItprog(res[1].data.data);
             }));
     },[]);
     const listOS = itos.map((product, index) =>
+        <Kaos key={index} title={product} />
+    );
+    const listPG = itprog.map((product, index) =>
         <Kaos key={index} title={product} />
     );
     return (
@@ -35,7 +41,7 @@ function Kaosit() {
                                 <img src="./images/iklan.jpg" alt="Cover" className="w-auto" />
                             </div>
                             <div className='item'>
-                                <img src="./images/iklan.jpg" alt="Cover" className="w-auto" />
+                                <img src="./images/iklan-2.jpg" alt="Cover" className="w-auto" />
                             </div>
                         </OwlCarousel>
                         <p className="mb-2">Untuk melengkapi rutinitasmu, kami hadirkan kaos untukmu yang bikin kamu <b>Percaya Diri sebagai
@@ -55,6 +61,28 @@ function Kaosit() {
                         {itos.length && (
                             <OwlCarousel className='owl-theme' loop margin={10} items={1}>
                             {listOS}
+                            </OwlCarousel>
+                        )}
+                    </div>
+                </div>
+            </section>
+            <section className="max-w-sm mx-auto mt-2">
+                <div className="container">
+                    <div className="p-4">
+                        <a href="https://wa.me/message/3R7BNUESRSINI1" target="_blank" rel="noreferrer" className="bg-green-600 block text-center text-white w-full py-2 rounded-lg font-medium"><i className="fab fa-whatsapp mr-1"></i>
+                            Pesan sekarang!</a>
+                    </div>
+                </div>
+            </section>
+            <section className="max-w-sm mx-auto mt-3">
+                <div className="container mx-auto">
+                    <div className="bg-white pt-2">
+                        <h5 className='font-bold text-center'>Kaos Programming</h5>
+                    </div>
+                    <div className="flex flex-wrap gap-4 justify-center">
+                        {itos.length && (
+                            <OwlCarousel className='owl-theme' loop margin={10} items={1}>
+                            {listPG}
                             </OwlCarousel>
                         )}
                     </div>
