@@ -281,7 +281,8 @@
       {
         "name": "Kaos Windows Unofficial",
         "code": "OS001",
-        "price": 89000,
+        "price": 100000,
+        "diskon": 0,
         "photo": [
           "https://anada-storage.vercel.app/assets/os/windows-hitam.png",
           "https://anada-storage.vercel.app/assets/os/windows-putih.png",
@@ -293,7 +294,8 @@
       {
         "name": "Kaos Ubuntu Unofficial",
         "code": "OS002",
-        "price": 89000,
+        "price": 100000,
+        "diskon": 89000,
         "photo": [
           "https://anada-storage.vercel.app/assets/os/ubuntu-hitam.png",
           "https://anada-storage.vercel.app/assets/os/ubuntu-putih.png",
@@ -305,7 +307,8 @@
     {
       "name": "Kaos Kali Linux Unofficial",
       "code": "OS003",
-      "price": 89000,
+      "price": 100000,
+      "diskon": 89000,
       "photo": [
         "https://anada-storage.vercel.app/assets/os/ubuntu-hitam.png",
         "https://anada-storage.vercel.app/assets/os/ubuntu-putih.png",
@@ -317,7 +320,8 @@
     {
       "name": "Kaos Linux Unofficial",
       "code": "OS001",
-      "price": 89000,
+      "price": 100000,
+      "diskon": 89000,
       "photo": [
         "https://anada-storage.vercel.app/assets/os/linux-hitam.png",
         "https://anada-storage.vercel.app/assets/os/linux-putih.png",
@@ -327,11 +331,12 @@
       "id": 4
     }
   ],
-  "kaosprog":[
+  "kaositprog":[
       {
         "name": "Kaos Visual Studio Code Unofficial",
         "code": "PG001",
-        "price": 89000,
+        "price": 100000,
+        "diskon": 0,
       "photo": [
         "https://anada-storage.vercel.app/assets/pg/vs-hitam.png",
         "https://anada-storage.vercel.app/assets/pg/vs-putih.png",
@@ -343,7 +348,8 @@
       {
         "name": "Kaos Java Unofficial",
         "code": "PG002",
-        "price": 89000,
+        "price": 100000,
+        "diskon": 0,
       "photo": [
         "https://anada-storage.vercel.app/assets/pg/java-hitam.png",
         "https://anada-storage.vercel.app/assets/pg/java-putih.png",
@@ -355,7 +361,8 @@
       {
         "name": "Kaos Python Unofficial",
         "code": "PG003",
-        "price": 89000,
+        "price": 100000,
+        "diskon": 0,
       "photo": [
         "https://anada-storage.vercel.app/assets/pg/py-hitam.png",
         "https://anada-storage.vercel.app/assets/pg/py-putih.png"
@@ -365,7 +372,8 @@
       {
         "name": "Kaos Javascript Unofficial",
         "code": "PG004",
-        "price": 89000,
+        "price": 100000,
+        "diskon": 0,
       "photo": [
         "https://anada-storage.vercel.app/assets/pg/js-hitam.png",
         "https://anada-storage.vercel.app/assets/pg/js-putih.png"
@@ -375,7 +383,8 @@
       {
         "name": "Kaos HTML Unofficial",
         "code": "PG005",
-        "price": 89000,
+        "price": 100000,
+        "diskon": 0,
       "photo": [
         "https://anada-storage.vercel.app/assets/pg/html-hitam.png",
         "https://anada-storage.vercel.app/assets/pg/html-putih.png",
@@ -386,7 +395,8 @@
       {
         "name": "Kaos CSS Unofficial",
         "code": "PG006",
-        "price": 89000,
+        "price": 100000,
+        "diskon": 0,
       "photo": [
         "https://anada-storage.vercel.app/assets/pg/css-hitam.png",
         "https://anada-storage.vercel.app/assets/pg/css-putih.png",
