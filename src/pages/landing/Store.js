@@ -64,11 +64,11 @@ const Store = () => {
                 <div className='container mx-auto'>
                     <div className='flex flex-wrap items-center'>
                         <div className='basis-full lg:basis-1/2'>
-                            <iframe className='w-full aspect-video mb-3' src="https://www.youtube.com/embed/12TuC1sUXxM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            <iframe className='w-full aspect-video mb-3 rounded-lg' src="https://www.youtube.com/embed/12TuC1sUXxM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                         </div>
                         <div className='basis-full lg:basis-1/2 lg:px-4'>
                             <h5 className='text-2xl font-bold mb-2'>Video Pengemasan Produk</h5>
-                            <p className='mb-3'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                            <p className='mb-3 text-slate-400'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
                             <a href='#' className='bg-red-600 px-4 py-2 rounded-lg text-white'>lihat selengkapnya</a>
                         </div>
                     </div>
