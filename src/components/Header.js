@@ -11,7 +11,7 @@ const Header = () => {
                 <div className='flex items-center justify-between relative'>
                     <div className='px-4'>
                         {/* <img src='../../../icons/favicon.svg' alt='Anada Store' className='w-16' /> */}
-                        <h5 className='text-white text-2xl font-bold'>Anada Store</h5>
+                        <a href='/' className='text-white text-2xl font-bold'>Anada Store</a>
                     </div>
                     <div className='flex items-center px-4'>
                         <button className='lg:hidden bg-slate-100 px-4 py-1 rounded text-slate-600' onClick={toggleMenu}>
