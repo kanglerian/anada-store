@@ -91,7 +91,7 @@ function Kaosit() {
             <section className="max-w-sm mx-auto mt-2">
                 <div className="container">
                     <div className="p-4">
-                        <a href="https://wa.me/message/3R7BNUESRSINI1" target="_blank" rel="noreferrer" className="bg-green-600 block text-center text-white w-full py-2 rounded-lg font-medium"><i className="fab fa-whatsapp mr-1"></i>
+                        <a href="https://api.whatsapp.com/send?phone=6281286501015" target="_blank" rel="noreferrer" className="bg-green-600 block text-center text-white w-full py-2 rounded-lg font-medium"><i className="fab fa-whatsapp mr-1"></i>
                             Pesan sekarang!</a>
                     </div>
                 </div>
@@ -116,7 +116,7 @@ function Kaosit() {
                         <h5 className="line-through text-slate-500">Rp100.000</h5>
                         <h1 className="text-2xl font-bold text-red-500">Rp89.000</h1>
                         <p className="my-3">Sebelum <b>harga naik</b>, PESAN SEKARANG!!!</p>
-                        <a href="https://wa.me/message/3R7BNUESRSINI1" target="_blank" rel='noreferrer' className="bg-green-600 block text-center text-white w-full py-2 rounded-lg font-medium"><i className="fab fa-whatsapp mr-1"></i>
+                        <a href="https://api.whatsapp.com/send?phone=6281286501015" target="_blank" rel='noreferrer' className="bg-green-600 block text-center text-white w-full py-2 rounded-lg font-medium"><i className="fab fa-whatsapp mr-1"></i>
                             Pesan sekarang!</a>
                         {/* <p className="mt-3 text-slate-700 text-[13px] font-bold">Produk Terbatas!!!</p> */}
                     </div>
